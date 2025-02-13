@@ -1,0 +1,238 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: lightgrey;
+}
+
+canvas {
+    border: 1px solid #000;
+    background-color: white;
+    border-radius: 15px;
+    cursor: crosshair;
+}
+
+#changeColorButton {
+    width: 137px;
+    height: 38px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    border-radius: 15px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    
+}
+
+
+#changeColorButton:hover {
+    background-color:  lightblue;
+    width: 144px;
+    height: 43px;
+}
+
+#Clear {
+    position: absolute;
+    top: 70px;
+    right: 20px;
+    padding: 10px 20px;
+    border-radius: 15px;
+    background-color: #007BFF;
+    color: white;
+    border: 0px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 137px;
+    height: 38px;
+}
+#Clear:hover {
+    background-color:  lightblue;
+    width: 144px;
+    height: 43px;
+}
+#cor {
+    position: absolute;
+    top: 850px;
+    right: 1600px;
+    background-color: #4b4a4a;
+    border-radius: 5px;
+}
+#apague {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    top: 120px;
+    right: 20px;
+}
+#apague:hover {
+    width: 60px;
+    height: 60px;
+}
+#Radio {
+    position: absolute;
+    width: 43px;
+    height: 43px;
+    top: 30px;
+    left: 200px;
+    border-radius: 5px;
+}
+#copia {
+    position: absolute;
+    width: 43px;
+    height: 43px;
+    top: 30px;
+    left: 200px;
+    border-radius: 5px;
+}
+#send {
+    color: white;
+    align-items: center;
+    position: absolute;
+    width: 43px;
+    height: 30px;
+    top: 45px;
+    left: 255px;
+    border-radius: 5px;
+    border: 0px;
+    background-color: #007BFF;
+    cursor: pointer;
+}
+#send:hover {
+    background-color: lightblue;
+    width: 48px;
+    height: 33px;
+}
+#preenche {
+    position: absolute;
+    width: 70px;
+    height: 50px;
+    cursor: pointer;
+    top: 182px;
+    right: 20px;
+}
+#preenche:hover {
+    height: 60px;
+    width: 80px;
+}
+#red {
+    cursor: pointer;
+    position: absolute;
+    top: 40px;
+    left: 440px;
+    width: 40px;
+    height: 40px;
+    border: 0;
+    border-radius: 20px;
+    background-color: red;
+}
+#red:hover {
+    height: 44px;
+    width: 44px;
+}
+#laranja {
+    cursor: pointer;
+    position: absolute;
+    top: 40px;
+    left: 560px;
+    width: 40px;
+    height: 40px;
+    border: 0;
+    border-radius: 20px;
+    background-color: orange;
+}
+#laranja:hover {
+    height: 44px;
+    width: 44px;
+}
+#amarelo {
+    cursor: pointer;
+    position: absolute;
+    top: 40px;
+    left: 680px;
+    width: 40px;
+    height: 40px;
+    border: 0;
+    border-radius: 20px;
+    background-color: yellow;
+}
+#amarelo:hover {
+    height: 44px;
+    width: 44px;
+}
+#green {
+    cursor: pointer;
+    position: absolute;
+    top: 40px;
+    left: 800px;
+    width: 40px;
+    height: 40px;
+    border: 0;
+    border-radius: 20px;
+    background-color: green;
+}
+#green:hover {
+    height: 44px;
+    width: 44px;
+}
+#blue {
+    cursor: pointer;
+    position: absolute;
+    top: 40px;
+    left: 920px;
+    width: 40px;
+    height: 40px;
+    border: 0;
+    border-radius: 20px;
+    background-color: blue;
+}
+#blue:hover {
+    height: 44px;
+    width: 44px;
+}
+#indigo {
+    cursor: pointer;
+    position: absolute;
+    top: 40px;
+    left: 1040px;
+    width: 40px;
+    height: 40px;
+    border: 0;
+    border-radius: 20px;
+    background-color: indigo;
+}
+#indigo:hover {
+    height: 44px;
+    width: 44px;
+}
+#violet {
+    cursor: pointer;
+    position: absolute;
+    top: 40px;
+    left: 1160px;
+    width: 40px;
+    height: 40px;
+    border: 0;
+    border-radius: 20px;
+    background-color: violet;
+}
+#violet:hover {
+    height: 44px;
+    width: 44px;
+}
+#AdCol {
+    position: absolute;
+    border: 0px;
+    border-radius: 6px;
+    color: white;
+    background-color: #000;
+    top: 10px;
+    right: 180px;
+    cursor: default;
+}
